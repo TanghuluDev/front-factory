@@ -1,0 +1,53 @@
+:root {
+  --PC: rgba(255, 89, 0, 1);
+  --SC: rgb(241, 217, 0);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+ 
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: #fffcee;
+  font-family: 'Roboto Condensed', sans-serif!important;
+  font-size: 62.5% !important;
+}
+
+
+.bg {
+  background: url(/pattern.png) center center repeat;
+  background-size: 90px 90px;
+  opacity: 0.6;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+}
+
+main {
+  z-index: 1;
+  position: relative;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
