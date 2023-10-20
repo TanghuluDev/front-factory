@@ -8,8 +8,6 @@ import { useEffect, useState } from "react";
 import Section1 from "./section1";
 import Section2 from "./section2";
 import Section3 from "./section3";
-import Section4 from "./section4";
-import Section5 from "./section5";
 import Link from "next/link";
 import Styled from "styled-components";
 import { Env } from "./env";
